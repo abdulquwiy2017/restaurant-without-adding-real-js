@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.active{
+    color: crimson;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+body{
+    background-color: whitesmoke;
+}
+body , html {
+    overflow-x: hidden;
+}
+/*NAVBAR*/
+.navbar{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: rgb(89, 57, 17);
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+
+}
+.nav-links li{
+    margin: 0 30px;
+}
+
+
+
+h4{
+    font-size: 3vmin;
+    color: darkblue;
+    margin: 20px auto;
+}
+
+p{
+    color: rgb(101, 102, 100);
+    padding: 0px 40px;
+}
+.events .ctn {
+    margin-top: 30px;
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/lake-2560x1440-4k-hd-wallpaper-sea-water-waterfall-rocks-mountain-sun-1143.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.header-content{
+    margin-bottom: 150px;
+    color: rgb(37, 161, 218);
+    text-align: center;
+}
+
+.header-content h2{
+    color: rgb(194, 169, 189);
+    font-size: 4vmin;
+}
+.header-content h1 {
+    color:whitesmoke;
+    filter: drop-shadow(1);
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background-color: rgb(232, 8, 53);
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.ctn{
+  
+    padding: 8px 15px;
+    background-color: crimson;
+    color: whitesmoke;
+    border-radius: 30px;
+}
+.menu-btn{
+    position: absolute;
+    top: -830px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display:none;
+
+}
+.size{
+    width: 20px;
+    height: 2px;
+    margin-bottom: 10px;
+    background-color: rgb(62, 28, 125);
+}
+.logo{
+     color: whitesmoke;
+}
+
+/* Events */
+
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    color: darkblue;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.row .col img {
+    width: 80%;
+    
+}
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.events .row {
+    margin-top: 50px;
+}
+h4{
+    font-size: 3.5vmin;
+    color: darkblue;
+    margin: 20px auto;
+}
+p{
+    color: rgb(85, 84, 84);
+    font-size: 3vmin;
+  
+    padding: 0px 40px;
+
+}
+.paragraph {
+    height: 30px;
+}
+.events .ctn{
+    margin: 50px ;
+}
+/*EXPLORE*/
+
+
+.explore{
+    width: 100%;
+    height: 120vh;
+    background-image: url(images/handsome-pizzaiolo-making-pizza-kitchen-pizzeria-african-american-ethnicity_1157-48110.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+}
+.explore-content p {
+    color: whitesmoke;
+    font-size: 3vmin;
+    width: 80%;
+    
+    text-align: center;
+    font-weight: bold;
+
+
+}
+
+.explorer {
+    margin: auto;
+}
+.explore-content{
+    width: 60%;
+    padding: 50px;
+    color: chocolate;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.explore-content h1{
+ 
+    font-size: 7vmin;
+    
+}
+.explore-content .line{
+    margin-bottom: 50px;
+}
+
+.explore-content .ctn {
+    margin-top: 40px ;
+}
+
+
+/*Tours*/
+.tour{   
+    width: 100%;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.tour h1{
+    border-left: 4px solid crimson;
+    font-size: 5vmin;
+    padding: 10px;
+}
+
+.tour h1 {
+  
+    margin-bottom: 20px;
+}
+ .destination p {
+    padding: 0;
+    width: 100%;
+    margin-bottom: 30px;
+ }
+
+ .destination{
+    margin: auto;
+    text-align: center;
+ }
+
+
+.food {
+    display: flex;
+    width: 100%;
+    flex-basis: 100%;
+}
+.destination {
+    width: 100%;
+    float: left;
+    margin-right: 20px;
+
+}
+ 
+.food-image {
+    width: 50%;
+    display: flex;
+    flex-basis: 100%;
+}
+.carrier {
+    width: 100%;
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+}
+.box img {
+    width: 32vmin;
+    height: 30vh;
+    margin: 5px 5px;
+}
+
+/*footer*/
+footer{
+    background-color: rgb(27, 27, 96);
+    color: whitesmoke;
+    height: auto;
+}
+.footer-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.foot{
+    margin-top:1rem;
+    width: 20rem;
+}
+.copyright{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+/*RESPONSIVENESS*/
+
+
+
+
+
+
+
+
+
+/* mobile phones*/
+
+@media  only screen and (max-width:900px) {
+    .hide{
+        display: none;
+    }
+    .food-image{
+        display: flex;
+        margin: auto ;
+    }
+}
+@media only screen and (max-width:1200px){
+   .menu-btn{
+    display: block;
+   }
+    .navbar{
+        padding: 0;
+
+    }
+    .menu-btn{
+        display: block;
+    }
+    .logo{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+
+    .nav-links{
+        flex-direction: column;
+        width: 50%;
+        height: 100vh;
+        justify-content: center;
+        background-color: rgb(94, 94, 212);
+        margin-top: -900px;
+        float: right;
+        transition: all 0.7s ease;
+        
+
+    }
+    .nav-links{
+        opacity: 0.7;
+        direction: ltl;
+    }
+
+    .mobile-menu{
+        margin-top: 0px;
+    }
+    .nav-links li{
+        margin: 30px auto;
+    }
+
+    .menu-btn{
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        width: 40px;
+        cursor: pointer;
+    }
+
+    .margin{
+        margin-bottom: 30px;
+    }
+    
+    .row{
+        display: flex;
+        flex-basis: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    /*explore  */
+
+    .explore{
+        width: 100%;
+        height: 120vh;
+        background-image: url(images/handsome-pizzaiolo-making-pizza-kitchen-pizzeria-african-american-ethnicity_1157-48110.webp);
+        background-repeat: no-repeat;
+        background-position: contain;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+    
+    }
+    .world {
+        width: 100px;}
+   
+    .carrier {
+        width: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+
+    }
+    .box img {
+        width:200px;
+        
+    }
+    .food-image{
+        margin: auto;
+        padding-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        border: 1 px solid black;
+    }
+
+
+    .food {
+    flex-direction: column;
+    flex-basis: 100%;
+}
+
+}
